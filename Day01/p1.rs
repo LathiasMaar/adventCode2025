@@ -2,7 +2,7 @@ use std::fs;
 
 fn main() {
 
-    let file = fs::read_to_string("p1_input.txt")
+    let file = fs::read_to_string("day1_input.txt")
         .expect("Should have been able to read the file");
 
     let instructions: Vec<&str> = file.lines().collect();
